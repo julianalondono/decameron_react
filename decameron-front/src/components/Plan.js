@@ -1,5 +1,4 @@
 import React from 'react';
-import Modal from 'react-bootstrap/Modal'
 
 const Plan = ({ article }) => {
     console.log(article)
