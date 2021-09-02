@@ -29,7 +29,7 @@ var url = "https://cgmkp3n80i.execute-api.us-east-1.amazonaws.com/default/CrearR
 
 var xhr = new XMLHttpRequest();
 xhr.open("POST", url);
-
+xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
 xhr.setRequestHeader("x-api-key", "Ll1WBbf83N5uullHQpZP9a5EjVzw4Eyq4IngOS1p");
 xhr.setRequestHeader("Authorization", "x-api-key: Ll1WBbf83N5uullHQpZP9a5EjVzw4Eyq4IngOS1p");
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
@@ -43,8 +43,7 @@ xhr.onreadystatechange = function () {
 var data = "usuarioID=1&roomID=1&dateIn=2232&dateOut=322&adults=2&children=2";
 
 xhr.send(data);
-console.log(this.article.fields.name);
-
+console.log("Holaa");
 }
 
 export default Plan;
