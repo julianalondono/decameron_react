@@ -1,0 +1,25 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify45ac32ad9bac4-staging-162329-authRole",
+      "UnauthRoleArn": "arn:aws:iam::993648102853:role/amplify-amplify45ac32ad9bac4-staging-162329-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::993648102853:role/amplify-amplify45ac32ad9bac4-staging-162329-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify45ac32ad9bac4-staging-162329-deployment",
+      "UnauthRoleName": "amplify-amplify45ac32ad9bac4-staging-162329-unauthRole",
+      "StackName": "amplify-amplify45ac32ad9bac4-staging-162329",
+      "StackId": "arn:aws:cloudformation:us-east-1:993648102853:stack/amplify-amplify45ac32ad9bac4-staging-162329/1bb44cd0-0c0a-11ec-bccf-0abd460f6797",
+      "AmplifyAppId": "d1e0mnmunfalsr"
+    },
+    "categories": {
+      "auth": {
+        "decameronreactdecame": {
+          "userPoolId": "us-east-1_S1EukPfzv",
+          "userPoolName": "decameron_pool_users",
+          "webClientId": "5c36fbuko4vcqcb0nb6b6pgmsa",
+          "nativeClientId": "5c36fbuko4vcqcb0nb6b6pgmsa"
+        }
+      }
+    }
+  }
+}
