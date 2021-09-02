@@ -367,6 +367,8 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  border-radius: 10;
+
 }
 button:not(:disabled),
 [type=button]:not(:disabled),

@@ -28,7 +28,7 @@ export class Header extends Component {
                             <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/Habitaciones">Habitaciones</Link></li>
                             <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/Planes">Planes</Link></li>
                             <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/Platos">Platos</Link></li>
-                            <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/Planes">Login</Link></li>
+                            <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="https://decameron-inicio-sesion.auth.us-east-1.amazoncognito.com">Login</Link></li>
                         </ul>
                     </div>
                 </div>
