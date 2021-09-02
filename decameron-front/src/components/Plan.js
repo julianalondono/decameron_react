@@ -9,7 +9,7 @@ const Plan = ({ article }) => {
                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
         </div>
                 <h3 class="portfolio-modal-title text-secondary text-uppercase mb-0" className='name'>{name}</h3>
-                <img class="img-fluid" src={photos} alt="..." />
+                <img class="img-fluid" src={photos.fields.file.url} alt="..." />
                 <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
