@@ -1,5 +1,5 @@
 import React from 'react';
-import Modal from 'react-bootstrap/Modal'
+
 
 const Dish = ({ article }) => {
     console.log(article)
