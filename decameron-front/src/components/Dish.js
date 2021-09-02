@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from 'react-bootstrap/Modal'
 
 const Dish = ({ article }) => {
     console.log(article)
@@ -17,7 +18,7 @@ const Dish = ({ article }) => {
                 <div class="divider-custom-line"></div>
                 </div>      
                 <p className='description'>{dish_description}</p>
-                <p className='price'>Precio: {dish_price}</p>
+                <h5 className='price'>Precio: {dish_price}</h5>
                 <button type="submit" class="btn btn-dark">Comprar {dish_name}</button>
                 
         </div>

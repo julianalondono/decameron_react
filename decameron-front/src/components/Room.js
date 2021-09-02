@@ -1,8 +1,18 @@
 import React from 'react';
+import Modal from 'react-bootstrap/Modal';
+import axios from 'axios';
+
 
 const Room = ({ article }) => {
     console.log(article)
-    const { name, price, description, roomPhoto } = article.fields
+    const { name, price, description, roomPhoto } = article.fields;
+
+    const response = axios.post(
+        'https://jsonplaceholder.typicode.com/users',
+        { usuarioID: '123', roomID: {name}, dateIn: '00000', dateOut: '00000', adults: '2', children: '2'},
+        { headers: { 'Content-Type': 'application/json' } }
+      )
+      console.log(response.data);
   
     return (
         <div class="card">
@@ -17,13 +27,14 @@ const Room = ({ article }) => {
                         </div>
                         
                 <p className='description'>{description}</p>
-                <p className='price'>Precio por noche: {price}</p>
+                <h5 className='price'>Precio por noche: {price}</h5>
                 <button type="submit" class="btn btn-dark">Reservar {name}</button>
               
         </div>
     )
 
 }
+
 
 export default Room;
 
